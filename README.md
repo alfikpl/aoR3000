@@ -116,7 +116,7 @@ Together with the aoR3000 core there is also a example SoC in the syn/soc/ direc
 - an Altera SDRAM controller;
 - a simple time interrupt device;
 - onchip memory for the boot code of the aoR3000;
-- a Altera JTAG to Avalon Master Bridge to upload the Linux kernel;
+- an Altera JTAG to Avalon Master Bridge to upload the Linux kernel;
 
 The SoC is designed for the Terasic DE2-115 board.
 
