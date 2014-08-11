@@ -128,11 +128,11 @@ To compile the SoC the following steps have to be taken:
 - in the Altera Nios2 Command Shell enter the directory arch/mips/boot/ of the Linux kernel and run 'system-console -cli';
 - load the Linux kernel binary using the system-console by entering the following TCL commands at the system-console prompt:
 
-
+---
     set srv [claim_service "master" [lindex [get_service_paths "master"] 0] ""];
     master_write_from_file $srv vmlinux.bin 0;
     close_service master $srv;
-
+---
 
 - open the nios2-terminal in a Altera Nios2 Command Shell;
 - verify that the following text is displayed in the terminal: 'Press any key to boot kernel...';
